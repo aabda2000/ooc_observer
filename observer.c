@@ -1,7 +1,7 @@
 #include "observer.h"
 #include <assert.h>
 #include "subject.h"
-/* Shape's prototypes of its virtual functions */
+/* Observer's prototypes of its virtual functions */
 static void Observer_update_(Observer *const me, int16_t temperature, int16_t humidity, int16_t pressure);
 static void Observer_display_();
 /* constructor */
