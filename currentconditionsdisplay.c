@@ -21,5 +21,5 @@ static void CCD_update_(Observer *const me, int16_t temperature, int16_t humidit
 }
 static void CCD_display_(CCD *const me)
 {
-    printf("temperature= %d, humidity=%d , pressure=%d\n", me->temperature, me->humidity, me->pressure);
+    printf("I m th observer identified by %d :\n temperature= %d, humidity=%d , pressure=%d\n", me->super.uidObserver, me->temperature, me->humidity, me->pressure);
 }
