@@ -7,8 +7,8 @@
 #define NB_OBSERVERS 10
 typedef struct
 {
-    int16_t temperature; /* x-coordinate of Shape's position */
-    int16_t humidity;    /* y-coordinate of Shape's position */
+    int16_t temperature; 
+    int16_t humidity;    
     int16_t pressure;
 } Subject;
 
