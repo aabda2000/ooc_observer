@@ -1,5 +1,5 @@
-#include "subject.h"  /* Rectangle class interface */
-#include "observer.h" /* Circle class interface */
+#include "subject.h"  /* Subject class interface */
+#include "observer.h" /* Observer class interface */
 #include "currentconditionsdisplay.h"
 #include <stdio.h> /* for printf() */
 int main()
