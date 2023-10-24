@@ -12,5 +12,5 @@ int main()
     CCD_ctor(&ccd_2);
     Subject_registerObserver((Observer *)&ccd_1);
     Subject_registerObserver((Observer *)&ccd_2);
-    setMeasurements(12, 12, 12);
+    setMeasurements(12, 12, 12); // fire notifications
 }
