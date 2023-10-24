@@ -5,7 +5,7 @@
 
 typedef struct
 {
-    Observer super; /* <== inherits Shape */
+    Observer super; /* <== inherits Observer */
     int16_t temperature;
     int16_t humidity;
     int16_t pressure;
